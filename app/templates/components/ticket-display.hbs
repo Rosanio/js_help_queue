@@ -1,0 +1,7 @@
+{{#if ticketClosed}}
+  <h4>Your ticket has been closed</h4>
+{{else}}
+  <h3>Thanks, {{ticket.name}}. Help is on the way.</h3>
+  <p>Leave this page open while you continue working on the problem.</p>
+  <button {{action 'closeTicket' ticket}}>Nevermind, we got it.</button>
+{{/if}}

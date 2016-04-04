@@ -1,0 +1,12 @@
+{{#if firstQuestionShow}}
+  {{debugging-steps messages="Have you gone through all the steps on the Learn How to Program debugging lesson?" nextQuestion="nextQuestion"}}
+{{/if}}
+{{#if secondQuestionShow}}
+  {{debugging-steps messages="Have you asked another pair for help?" nextQuestion="thirdQuestion"}}
+{{/if}}
+{{#if thirdQuestionShow}}
+  {{debugging-steps messages="Have you spent 15 minutes going through through the problem documenting every step?" nextQuestion="form"}}
+{{/if}}
+{{#if formShow}}
+  {{question-form save="save"}}
+{{/if}}

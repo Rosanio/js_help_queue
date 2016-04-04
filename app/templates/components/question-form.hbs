@@ -1,0 +1,12 @@
+<form>
+  <div class="form-group">
+    {{input value=name class="form-control" placeholder="Please enter your name"}}
+  </div>
+  <div class="form-group">
+    {{input value=location class="form-control" placeholder="Please enter your location"}}
+  </div>
+  <div class="form-group">
+    {{input value=description class="form-control" placeholder="Give a brief description of issue you are having"}}
+  </div>
+  <button type="button" name="button" {{action "save"}}>Submit Ticket</button>
+</form>
