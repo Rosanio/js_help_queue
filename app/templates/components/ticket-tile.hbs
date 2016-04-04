@@ -1,4 +1,14 @@
 <div class="ticketView">
-
-  <h1>{{ticket.location}} <span class="time">{{timeElapsed}}</span> {{ticket.name}}</h1>
+  <div class="row">
+    <div class="col-xs-2">
+      <h1>{{ticket.location}}</h1>
+    </div>
+    <div class="col-xs-2">
+      <h1><span class="time">{{timeElapsed}}m</span></h1>
+    </div>
+    <div class="col-xs-8">
+      <h1>{{ticket.name}}</h1>
+    </div>
+  </div>
+  <hr>
 </div>

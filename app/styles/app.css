@@ -1,0 +1,63 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #ecf0f1;
+}
+
+.ticketView h1 {
+  font-size: 84px;
+  padding-left: 20px;
+}
+
+.time {
+  color: grey;
+  font-size: 64px;
+}
+
+form {
+  margin:auto;
+  width: 400px;
+  text-align: center;
+}
+
+.questions {
+  margin: auto;
+  width:1200px;
+  text-align: center;
+}
+
+.questions p {
+  font-size: 22px;
+  font-weight: lighter;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.navbar {
+  background-color: #f05a26;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+    text-align: center;
+    font-family: 'Nixie One', cursive;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+button {
+  background-color: #f05a26;
+  color: white;
+}
+
+.ticketDisplay {
+  text-align: center;
+}
+
+.ticketView {
+  background-color: white;
+}
