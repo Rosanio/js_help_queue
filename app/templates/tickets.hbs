@@ -1,7 +1,0 @@
-<h1>Your Tickets</h1>
-
-{{#each model as |ticket|}}
-  <div>
-    {{#link-to 'ticket' ticket.id}}{{ticket.description}}{{/link-to}}
-  </div>
-{{/each}}
