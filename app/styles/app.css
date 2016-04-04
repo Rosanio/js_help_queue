@@ -18,13 +18,14 @@ body {
 
 form {
   margin:auto;
-  width: 400px;
   text-align: center;
 }
 
+textarea.form-control {
+  height: auto;
+}
+
 .questions {
-  margin: auto;
-  width:1200px;
   text-align: center;
 }
 
@@ -60,4 +61,28 @@ button {
 
 .ticketView {
   background-color: white;
+  margin-top: -18px;
+}
+
+.questionForm {
+  margin-top: 20spx;
+}
+
+.teacherClose {
+  float: right;
+}
+
+.ticketView h1 {
+  color: black;
+}
+
+.ticket-info {
+  margin-top: -20px;
+  background-color: white;
+  padding-bottom: 50px;
+}
+
+.well {
+  height: 200px;
+  font-family: 'Courier New', monospace;
 }
